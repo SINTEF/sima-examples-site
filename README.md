@@ -17,3 +17,5 @@ The examples can be linked to an `examples` folder into SIMA using the following
 **NOTE** Make sure you have git installed on your PC :exclamation:
 
 ---
+
+   
