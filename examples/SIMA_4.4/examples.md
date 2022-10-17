@@ -6,8 +6,7 @@
 | Case | Description    |
 |:---|:---|
 | [An editor to read and plot the content of an mpf-file](mpf_plotter.stask)| Running Riflex standalone an ascii-file of type mpf is created. <br /> This is an example on how you can read the file in SIMA.|
-
-<!---| [OpenFAST model of the IEA 15 MW WT](mpf_plotter.stask) | **_NOTE:exclamation:_** <br /> This is a draft version the OpenFAST model of the IEA 15 MW WT. <br />The model is _NOT_ verified.  |
+| [OpenFAST model of the IEA 15 MW WT](IEA15MW_turbine_only_draft_version_20221007.stask) | **_NOTE:_** <br /> This is a draft version of the IEA 15 MW WT (based on the OpenFAST model). The implementation of a verified model is work in progress. <br />The model includes the turbine only. <br />The model is _NOT_ verified.  |
 
 
 
