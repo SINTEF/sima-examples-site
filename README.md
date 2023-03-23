@@ -22,7 +22,7 @@ The examples can be linked to an `examples` folder into SIMA using the following
 
 * [SIMAPY](https://github.com/SINTEF/simapy) - Python utilities for SIMA
   * The library can be used to interact with SIMA 
-* [QATS](https://pypi.org/project/qats/) 
+* [QATS](https://pypi.org/project/qats/) - open source, developed and maintained by DNV
   * Python library and GUI for efficient processing and visualization of time series
   * Handles time series files exported from SIMO and RIFLEX as well as SIMA hdf5 (.h5) files.
 
