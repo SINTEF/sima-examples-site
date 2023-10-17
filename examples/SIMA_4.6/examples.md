@@ -11,6 +11,7 @@
 | Case | Description    |Tags|
 |:---|:---|:---|
 | [Time domain VIV (Cross flow load)](sima463_example_ttr500m.stask)| This example shows how to include the effect of VIV due to current and waves in a time domain simulation. <br />A simple TTR model is included together with workflows and a small custom editor to run the analysis and view results.<br /> <br /> Only cross-flow VIV loads are applied as the in-line loads are still restricted to the JIP participants. NOTE:  A license is currently needed to use cross-flow VIV loads. |`Time domain VIV, Cross-flow loads` <br /> `Wave & Current` <br /> `TTR (top tensioned riser)`|
+| [Calculate relative distance between points](sima463_Calculate_relative_distance_between_points.stask)|This example shows how to use a workflow to calculate the relative distance between two points. This approach can be extended to find the relative distance between two bodies. | `workflow`, `transform point`, `relative position`,`bodies` 
 
 <!---#That is so funny! :joy: :tent:-->
 
