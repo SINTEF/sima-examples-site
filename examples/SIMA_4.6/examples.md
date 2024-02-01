@@ -19,7 +19,7 @@
 | Case | Description    |Tags|
 |:---|:---|:---|
 | [FOWT, Time domain VIV (Cross flow load)](sima464_Spar_OWT_DNV.stask)| This example shows how to include the effect of VIV due to wave & current in a time domain simulation. <br/>A FOWT is modelled including workflows and a small custom editor to run the analysis and view results. <br/><br/>**NOTE**: _The purpose of this model is to illustrate the effect of VIV loads_. A check has been performed to ensure that the hydrodynamic coefficients are reasonable. <br /> <br />This example was collaboratively created with the assistance of [DNV](https://www.dnv.com/services/marine-operations-and-mooring-analysis-software-sima-2324) <br /> <br /> *Only cross-flow VIV loads are applied as the in-line loads are still restricted to the JIP participants.*|`Time domain VIV, Cross-flow loads` <br/> `Wave, Current, Wind` <br/> `FOWT, NREL5MW`, `DNV`|
-
+|[An example setting up an analysis loop](sima464_example_run_a_loop.stask)|This is an example of showing how you can make a loop in SIMA. This includes making a workflow, `run_single`, calling a single condition and an outer workflow, `run_multi`,  calling, `run_single`,  using a _workflow set_. <br/><br/> A custom editor is also included|`make a loop in SIMA`, `workflow`, `workflow set`|
 
 
 <!---#That is so funny! :joy: :tent:-->
