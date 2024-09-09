@@ -5,3 +5,4 @@
 - [Examples created for SIMA 4.2](examples/SIMA_4.2/examples.md)
 - [Examples created for SIMA 4.4](examples/SIMA_4.4/examples.md)
 - [Examples created for SIMA 4.6](examples/SIMA_4.6/examples.md)
+- [Examples created for SIMA 4.8](examples/SIMA_4.8/examples.md)
