@@ -1,0 +1,14 @@
+= Examples created for SIMA 5.0
+:description: SIMA 5.0 examples and documentation
+:keywords: SIMA, 5.0, examples, simulation
+
+
+[cols="2,3,1", options="header"]
+|===
+|Case |Description |Tags
+
+|xref:attachment$examples/SIMA_5.0/IEA22MW.stask[Model of the 22 MW IEA Wind turbine]
+|This is a SIMA model of the IEA 22 MW reference wind turbine. The model is based on the openFAST specification of the turbine. Documentation of the model verification is included in the storage task *ModelVerificaton* in the model file, and can also be accessed from here: xref:attachment$examples/SIMA_5.0/IEA22MWDocumentation.pdf[IEA 22 MW verification]
+|`wind` `IEA22MW`
+
+|===

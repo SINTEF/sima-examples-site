@@ -1,0 +1,15 @@
+= Examples created for SIMA 4.2
+:description: SIMA 4.2 examples and documentation
+:keywords: SIMA, 4.2, examples, simulation
+
+[cols="2,3", options="header"]
+|===
+|Case |Description
+
+|xref:attachment$examples/SIMA_4.2/Example_rename_many_signals.stask[An example on how to rename and shorted the name of signals]
+|The workflow show how to rename a signal of type _text1.text2.text3_
+
+|xref:attachment$examples/SIMA_4.2/mpf_plotter.stask[An editor to read and plot the content of an mpf-file]
+|Running Riflex standalone an ascii-file of type mpf is created. This is an example on how you can read the file in SIMA.
+
+|===

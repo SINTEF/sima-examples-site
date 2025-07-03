@@ -1,0 +1,22 @@
+= SIMA Examples
+:description: SIMA Examples documentation and downloads
+:keywords: SIMA, examples, simulation, marine, analysis
+
+Welcome to the SIMA Examples documentation site. Here you can find examples and documentation for different versions of SIMA.
+SIMA is backwards compatible, so examples created for a specific version of SIMA will work with later versions.
+
+== Available SIMA Versions
+
+* xref:sima-4.0.adoc[Examples created for SIMA 4.0]
+* xref:sima-4.1.adoc[Examples created for SIMA 4.1]
+* xref:sima-4.2.adoc[Examples created for SIMA 4.2]
+* xref:sima-4.4.adoc[Examples created for SIMA 4.4]
+* xref:sima-4.6.adoc[Examples created for SIMA 4.6]
+* xref:sima-4.8.adoc[Examples created for SIMA 4.8]
+* xref:sima-5.0.adoc[Examples created for SIMA 5.0]
+
+== Sesam Examples
+
+Licensing and support for SIMA is provided by DNV.
+
+DNV examples are available at the site https://sesam.dnv.com/examples/examples.html#sima[Download Sesam Examples^]

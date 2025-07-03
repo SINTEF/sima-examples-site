@@ -8,7 +8,8 @@ The examples can be linked to an `examples` folder into SIMA using the following
   * in a command prompt type: 
   * `git clone https://github.com/SINTEF/sima-examples-site`
 * In the [SIMA-website](https://sima.sintef.no/)
-  * Follow the instructions in: [How to make your own toolbox](https://sima.sintef.no/doc/4.8.0/howtodo/How-to-make-your-own-toolbox.html), see Section 2.
+  * Follow the instructions in: [How to make your own toolbox](https://sima.sintef.no/doc/latest/howtodo/How-to-make-your-own-toolbox.html), see Section 2.
+* The examples are available in the `site/docs/modules/ROOT/attachments/examples` folder.
 
 
  

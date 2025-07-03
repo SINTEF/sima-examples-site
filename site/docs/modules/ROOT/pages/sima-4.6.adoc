@@ -1,0 +1,26 @@
+= Examples created for SIMA 4.6
+:description: SIMA 4.6 examples and documentation
+:keywords: SIMA, 4.6, examples, simulation
+
+
+[cols="2,3,1", options="header"]
+|===
+|Case |Description |Tags
+
+|xref:attachment$examples/SIMA_4.6/CatenaryRiser_userdefined_element.stask[User defined element]
+|This example shows to user a user-defined element to create a flat bottom. Fortran code for the user-defined element may be found in `template_code/earth_example.f90` and the compiled code in `earth_example.dll`. **NOTE**: The interface code in Fortran 90 included in the storage task `template_code/earth_interface.f90`
+|`User defined element`
+
+|xref:attachment$examples/SIMA_4.6/sima463_example_ttr500m.stask[TTR, Time domain VIV (Cross flow load)]
+|This example shows how to include the effect of VIV due to current and waves in a time domain simulation. A simple TTR model is included together with workflows and a small custom editor to run the analysis and view results. *Only cross-flow VIV loads are applied as the in-line loads are still restricted to the JIP participants.*
+|`Time domain VIV, Cross-flow loads` `Wave & Current` `TTR (top tensioned riser)`
+
+|xref:attachment$examples/SIMA_4.6/sima463_Calculate_relative_distance_between_points.stask[Calculate relative distance between points]
+|This example shows how to use a workflow to calculate the relative distance between two points. This approach can be extended to find the relative distance between two bodies.
+|`workflow`, `transform point`, `relative position`,`bodies`
+
+|xref:attachment$examples/SIMA_4.6/sima464_Spar_OWT_DNV.stask[FOWT, Time domain VIV (Cross flow load)]
+|This example shows how to include the effect of VIV due to wave & current in a time domain simulation. A FOWT is modelled including workflows and a small custom editor to run the analysis and view results. **NOTE**: _The purpose of this model is to illustrate the effect of VIV loads_. A check has been performed to ensure that the hydrodynamic coefficients are reasonable. This example was collaboratively created with the assistance of https://www.dnv.com/services/marine-operations-and-mooring-analysis-software-sima-2324[DNV^]. *Only cross-flow VIV loads are applied as the in-line loads are still restricted to the JIP participants.*
+|`Time domain VIV, Cross-flow loads` `Wave, Current, Wind` `FOWT, NREL5MW`, `DNV`
+
+|===

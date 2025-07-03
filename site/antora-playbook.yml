@@ -1,0 +1,29 @@
+site:
+  title: SIMA Examples Site
+  url: /
+  start_page: sima-examples::index.adoc
+
+content:
+  edit_url: ~
+  branches: HEAD
+  sources:
+  - url: ../
+    start_path: site/docs
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+
+output:
+  dir: ./build/site
+asciidoc:
+  attributes:
+    eqnums: 'all'
+    stem: latexmath
+    xrefstyle: short
+    sectnums: '@'
+antora:
+  extensions:
+  - '@antora/lunr-extension'

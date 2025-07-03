@@ -1,0 +1,25 @@
+= Examples created for SIMA 4.4
+:description: SIMA 4.4 examples and documentation
+:keywords: SIMA, 4.4, examples, simulation
+
+[cols="2,3,1", options="header"]
+|===
+|Case |Description |Tags
+
+|xref:attachment$examples/SIMA_4.4/differentiate_using_javascript.stask[Differentiation using JavaScript and workflow operator]
+|This example show how you can use JavaScript or the workflow operator _differentiation_. The JavaScript's can be used as basis for creating other functions.
+|`JavaScript`
+
+|xref:attachment$examples/SIMA_4.4/mpf_plotter.stask[An editor to read and plot the content of an mpf-file]
+|Running Riflex standalone an ascii-file of type mpf is created. This is an example on how you can read the file in SIMA.
+|`Standalone` `Riflex` `ascii` `mpf`
+
+|xref:attachment$examples/SIMA_4.4/decay_examples.stask[Decay analysis]
+|This example show how to do a decay analysis using static displacement and specified force
+|`decay` `specified force` `displacement`
+
+|xref:attachment$examples/SIMA_4.4/example_fatigue_using_workflowset_and_postproc.stask[Run model and calculate fatigue damage]
+|Run a model for a set of sea states defined in an input file, see storage task `ST_fatigue/input/`. The fatigue damage is calculated for selected location along the riser, see workflow `FLS.run_loop -> FLS.wf_calcFatigue`
+|`fatigue`
+
+|===

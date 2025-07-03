@@ -1,0 +1,81 @@
+= Features
+:description: Features of Component A
+:keywords: features, functionality, capabilities
+
+== Core Features
+
+Component A provides several key features to enhance your development experience:
+
+=== Feature X
+
+Feature X allows you to process data with high efficiency:
+
+* Parallel processing capabilities
+* Automatic resource management
+* Configurable pipeline stages
+
+[source,javascript]
+----
+// Using Feature X
+const result = componentA.featureX.process(data, {
+  parallelism: 4,
+  cacheResults: true
+});
+----
+
+=== Feature Y
+
+Feature Y simplifies integration with external services:
+
+* Built-in adapters for popular services
+* Authentication management
+* Retry and failover mechanisms
+
+[source,javascript]
+----
+// Using Feature Y
+await componentA.featureY.connect({
+  service: 'example-api',
+  credentials: {
+    apiKey: process.env.API_KEY
+  }
+});
+----
+
+== Advanced Features
+
+=== Extensibility
+
+Component A can be extended with plugins:
+
+[source,javascript]
+----
+// Registering a custom plugin
+componentA.registerPlugin({
+  name: 'my-custom-plugin',
+  handler: function(context) {
+    // Plugin implementation
+    return modifiedContext;
+  }
+});
+----
+
+=== Performance Monitoring
+
+Monitor your application's performance with built-in tools:
+
+[source,javascript]
+----
+// Enable performance monitoring
+componentA.monitor.start();
+
+// Later in your code
+const metrics = componentA.monitor.getMetrics();
+console.log(`Operation took ${metrics.lastOperationMs}ms`);
+----
+
+== Additional Resources
+
+* xref:getting-started.adoc[Getting Started Guide]
+* https://example.org/api-docs[API Documentation]
+* https://example.org/community[Community Support]

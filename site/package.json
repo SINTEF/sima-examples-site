@@ -1,0 +1,23 @@
+{
+  "name": "sima-examples-site",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "del-cli --force build/site",
+    "generate" : "antora --fetch antora-playbook.yml",
+    "build": "npm run clean && npm run generate",
+    "serve": "npx http-server build/site"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^6.0.0",
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "@antora/cli": "^3.1.10",
+    "@antora/site-generator": "^3.1.10",
+    "@antora/lunr-extension": "1.0.0-alpha.10"
+  }
+}

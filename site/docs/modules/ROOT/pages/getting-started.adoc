@@ -1,0 +1,51 @@
+= Getting Started
+:description: Getting started with Component A
+:keywords: setup, configuration, installation
+
+== Installation
+
+To use Component A, follow these simple installation steps:
+
+[source,bash]
+----
+# Install using pnpm
+pnpm add component-a
+----
+
+== Configuration
+
+Create a configuration file named `component-a.config.js` with the following content:
+
+[source,javascript]
+----
+module.exports = {
+  // Basic configuration
+  name: 'my-app',
+  version: '1.0.0',
+  
+  // Advanced settings
+  features: {
+    enableFeatureX: true,
+    enableFeatureY: false
+  }
+};
+----
+
+== Usage Example
+
+Here's a simple example of how to use Component A in your project:
+
+[source,javascript]
+----
+const componentA = require('component-a');
+
+// Initialize the component
+const instance = componentA.init({
+  debug: true
+});
+
+// Use the component's features
+instance.doSomething();
+----
+
+For more details about available features, check out the xref:features.adoc[Features] page.
