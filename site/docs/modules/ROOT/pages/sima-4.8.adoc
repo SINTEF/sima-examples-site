@@ -1,0 +1,17 @@
+= Examples created for SIMA 4.8
+:description: SIMA 4.8 examples and documentation
+:keywords: SIMA, 4.8, examples, simulation
+
+[cols="2,3,1", options="header"]
+|===
+|Case |Description |Tags
+
+|xref:attachment$examples/SIMA_4.8/IEA15MW.stask[Model of the 15MW IEA Wind turbine]
+|This is a SIMA model of the IEA 15 MW reference wind turbine. The model is based on the windIO specification of turbine, with aerodynamic properties taken from the openFAST model. Documentation of the model verification is included in the storage task *ModelVerificaton* in the model file, and can also be accessed from here: xref:attachment$examples/SIMA_4.8/IEA15MWDocumentation.pdf[IEA 15 MW verification]. **_NOTE:_** The turbulent wind files included with the model are intended as an example only. The resolution is not sufficient to be used for actual response analysis.
+|`wind` `IEA15MW`
+
+|xref:attachment$examples/SIMA_4.8/RunAndPostProcSeparate.stask[Run and post-process]
+|This example show how you can run the analysis, store the results to files and the finally post-process the data
+|
+
+|===

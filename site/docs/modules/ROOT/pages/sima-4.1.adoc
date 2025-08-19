@@ -1,0 +1,28 @@
+= Examples created for SIMA 4.1
+:description: SIMA 4.1 examples and documentation
+:keywords: SIMA, 4.1, examples, simulation
+
+
+[cols="2,3", options="header"]
+|===
+|Case |Description
+
+|xref:attachment$examples/SIMA_4.1/comparison_marine_growth_conditionset_in_wf_set_with_CE_report.stask[Comparison Marine growth conditionset]
+|Modelling marine growth. Example includes a custom editor and a report generator.
+
+|xref:attachment$examples/SIMA_4.1/Error_log_example_with_two_sets.stask[How to use error log in a workflow set]
+|Log of the failed cases written stored to file.
+
+|xref:attachment$examples/SIMA_4.1/Example_condition_and_workflow_as_input.stask[Condition and workflow as input]
+|
+
+|xref:attachment$examples/SIMA_4.1/Example_send_signals_to_Excel_sheets.stask[Pass signal to an Excel file]
+|How to pass signal to Excel
+
+|xref:attachment$examples/SIMA_4.1/storeDataToFiles.stask[Store data to file]
+|Store data to an external file
+
+|xref:attachment$examples/SIMA_4.1/examplePostProcessorOperators.stask[Post processor operators]
+|This is included as a part of the examples in SIMA 4.2.0
+
+|===

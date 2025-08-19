@@ -1,0 +1,72 @@
+
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <div class="navbar-item">
+        <span>
+            <img src="{{uiRootPath}}/img/sintef.png" alt="Logo" />
+        </span>
+        <a href="{{uiRootPath}}/../index.html">SIMA Examples</a>
+      </div>
+      {{#if env.SITE_SEARCH_PROVIDER}}
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field hover-text" style="display: flex; justify-content: center;">
+          <div>
+            <span id="search-label" style="color: white">This module only:</span>
+          </div>
+          <input id="search-input" type="text">
+          <div class="tooltip">
+            <img class="tooltip" src = "{{uiRootPath}}/img/help.svg" alt="?"/>
+            <span class="tooltiptext">
+              <ul>
+                <li>Toggle checkbox to restrict the search to the current module( such as RIFLEX,SIMO,etc.).</li>
+              </ul>
+              <ul>
+                <li>You can control the search by using the following operators:</li>
+                <li>Wildcards:
+                  <ul>
+                    <li>*node (Words ending with node)</li>
+                    <li>node* (Words starting with node)</li>
+                    <li>*node* (Words containing node)</li>
+                  </ul>
+                </li>
+                <li>Title heading:                 
+                  <ul>
+                    <li>title:node (Word node in title)</li>
+                  </ul>
+                </li>
+                <li>Keyword ranking:                 
+                  <ul>
+                    <li>sand^10 material (sand is 10 times more important than material)</li>
+                  </ul>
+                </li>
+                <li>Keyword exclusion and inclusion:                 
+                  <ul>
+                    <li>node +fixed -parameters (must contain fixed, might contain node and must not contain parameters)</li>
+                  </ul>
+                </li>
+                
+              </ul>
+            </span>
+          </div>
+        </div>
+      {{/if}}
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-item" href="{{uiRootPath}}/../index.html">
+          <span class="icon">
+            <img src="{{uiRootPath}}/img/sima-48x32bit.png" alt="Logo" />
+          </span>
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+

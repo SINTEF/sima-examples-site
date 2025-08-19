@@ -1,0 +1,9 @@
+* xref:index.adoc[Home]
+* SIMA Examples
+** xref:sima-4.0.adoc[SIMA 4.0]
+** xref:sima-4.1.adoc[SIMA 4.1]
+** xref:sima-4.2.adoc[SIMA 4.2]
+** xref:sima-4.4.adoc[SIMA 4.4]
+** xref:sima-4.6.adoc[SIMA 4.6]
+** xref:sima-4.8.adoc[SIMA 4.8]
+** xref:sima-5.0.adoc[SIMA 5.0]
