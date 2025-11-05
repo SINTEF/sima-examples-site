@@ -11,4 +11,4 @@
 ### Sesam Examples
 
 Liscensing and support for SIMA is provided by DNV.<br>
-DNV examples are available at the site [Download Sesam Examples](https://sesam.dnv.com/examples/examples.html#sima)
+DNV examples are available at the site [Sesam Knowledge Center](https://mysoftware.dnv.com/knowledge-centre/sesam/examples/sima/)
