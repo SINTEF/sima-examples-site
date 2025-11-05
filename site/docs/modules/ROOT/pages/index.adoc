@@ -19,5 +19,5 @@ SIMA is backwards compatible, so examples created for a specific version of SIMA
 
 Licensing and support for SIMA is provided by DNV.
 
-DNV examples are available at the site [Sesam Knowledge Center](https://mysoftware.dnv.com/knowledge-centre/sesam/examples/sima/)
+DNV examples are available at the site https://mysoftware.dnv.com/knowledge-centre/sesam/examples/sima/[Sesam Knowledge Center]
 
