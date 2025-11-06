@@ -11,4 +11,7 @@
 |This is a SIMA model of the IEA 22 MW reference wind turbine. The model is based on the openFAST specification of the turbine. Documentation of the model verification is included in the storage task *ModelVerificaton* in the model file, and can also be accessed from here: xref:attachment$examples/SIMA_5.0/IEA22MWDocumentation.pdf[IEA 22 MW verification]
 |`wind` `IEA22MW`
 
+//|xref:attachment$examples/SIMA_5.0/sima500_Spar_OWT_DNV.stask[FOWT, Time domain VIV (Cross flow load)]
+//|This example shows how to include the effect of VIV due to wave & current in a time domain simulation. A FOWT is modelled including workflows and a small custom editor to run the analysis and view results. **NOTE**: _The purpose of this model is to illustrate the effect of VIV loads_. A check has been performed to ensure that the hydrodynamic coefficients are reasonable. This example was collaboratively created with the assistance of https://www.dnv.com/services/marine-operations-and-mooring-analysis-software-sima-2324[DNV^]. *Only cross-flow VIV loads are applied as the in-line loads are still restricted to the JIP participants.*
+//|`Time domain VIV, Cross-flow loads` `Wave, Current, Wind` `FOWT, NREL5MW`, `DNV`
 |===
