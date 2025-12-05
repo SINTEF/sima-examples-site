@@ -12,8 +12,8 @@
 |`wind` `IEA22MW`
 
 |xref:attachment$examples/SIMA_5.0/Example_INO12MW_2by1_grid.stask[Grid21 shared mooring farm]
-|The Grid21 shared mooring farm consists of 2 INO WINDMOOR 12MW reference floating wind turbines (FWTs) at a water depth of 350 m. Each FWT is connected to three anchor lines and a shared line
-|`wind` `INO 12MW` `wind farm`
+|The Grid21 shared mooring farm consists of 2 INO WINDMOOR 12MW reference floating wind turbines (FWTs) at a water depth of 350 m. Each FWT is connected to three anchor lines and a shared line. A model summary can be found in the storage stask *ST_doc*, and can also be accessed from here: xref:attachment$examples/SIMA_5.0/Grid21ModelSummary.pdf[Grid21 shared mooring farm model summary]
+|`wind` `INO 12MW` `wind farm` `mooring`
 
 //|xref:attachment$examples/SIMA_5.0/sima500_Spar_OWT_DNV.stask[FOWT, Time domain VIV (Cross flow load)]
 //|This example shows how to include the effect of VIV due to wave & current in a time domain simulation. A FOWT is modelled including workflows and a small custom editor to run the analysis and view results. **NOTE**: _The purpose of this model is to illustrate the effect of VIV loads_. A check has been performed to ensure that the hydrodynamic coefficients are reasonable. This example was collaboratively created with the assistance of https://www.dnv.com/services/marine-operations-and-mooring-analysis-software-sima-2324[DNV^]. *Only cross-flow VIV loads are applied as the in-line loads are still restricted to the JIP participants.*
