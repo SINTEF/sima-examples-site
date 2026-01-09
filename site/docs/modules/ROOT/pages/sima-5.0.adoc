@@ -29,6 +29,13 @@ A model summary can be found in the storage s-task *ST_doc*, and can also be acc
 |`wind` `INO 12MW` `wind farm` `mooring`
  3+|image::_attachments/examples/SIMA_5.0/images/static_grid3by3.png[]
 
+| xref:attachment$examples/SIMA_5.0/Example_DoWhileLoop.stask[Do while example] | Use of a  while loop example.
+
+- Example 1: using _Java Script_
+- Example 2: using _constraints_ 
+  |`do while` `java script`  `constraints`
+ 3+|image::_attachments/examples/SIMA_5.0/images/do_while.png[]
+
 //|xref:attachment$examples/SIMA_5.0/sima500_Spar_OWT_DNV.stask[FOWT, Time domain VIV (Cross flow load)]
 //|This example shows how to include the effect of VIV due to wave & current in a time domain simulation. A FOWT is modelled including workflows and a small custom editor to run the analysis and view results. **NOTE**: _The purpose of this model is to illustrate the effect of VIV loads_. A check has been performed to ensure that the hydrodynamic coefficients are reasonable. This example was collaboratively created with the assistance of https://www.dnv.com/services/marine-operations-and-mooring-analysis-software-sima-2324[DNV^]. *Only cross-flow VIV loads are applied as the in-line loads are still restricted to the JIP participants.*
 //|`Time domain VIV, Cross-flow loads` `Wave, Current, Wind` `FOWT, NREL5MW`, `DNV`
