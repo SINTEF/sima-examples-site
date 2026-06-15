@@ -14,6 +14,7 @@ SIMA is backwards compatible, so examples created for a specific version of SIMA
 * xref:sima-4.6.adoc[Examples created for SIMA 4.6]
 * xref:sima-4.8.adoc[Examples created for SIMA 4.8]
 * xref:sima-5.0.adoc[Examples created for SIMA 5.0]
+* xref:sima-5.2.adoc[Examples created for SIMA 5.2]
 
 == Sesam Examples
 
