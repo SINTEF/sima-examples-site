@@ -1,0 +1,25 @@
+= Examples created for SIMA 5.2
+:description: SIMA 5.2 examples and documentation
+:keywords: SIMA, 5.2, examples, simulation, grid
+
+
+[cols=".^2a,.^3a,.^1a", options="header"]
+|===
+|Case |Description |Tags
+
+|xref:attachment$examples/SIMA_5.2/Example_INO12MW_2by1_grid.stask[Grid21 shared mooring farm]
+|The Grid21 shared mooring farm consists of 2 INO WINDMOOR 12MW reference floating wind turbines (FWTs) at a water depth of 350 m. Each FWT is connected to three anchor lines and a shared line. 
+
+A model summary can be found in the storage s-task *ST_doc*, and can also be accessed from here: xref:attachment$examples/SIMA_5.2/Grid21ModelSummary.pdf[Grid21 shared mooring farm model summary]
+|`wind` `INO 12MW` `wind farm` `mooring`
+ 3+^|image::_attachments/examples/SIMA_5.2/images/static_grid2by1.png[]
+
+|xref:attachment$examples/SIMA_5.2/Example_INO12MW_3by3_grid.stask[Grid33 shared mooring farm]
+|The Grid33 shared mooring farm consists of 2 INO WINDMOOR 12MW reference floating wind turbines (FWTs) at a water depth of 350 m. Each FWT is connected to four lines, with the column supporting the tower containing two fairleads. 
+
+A model summary can be found in the storage s-task *ST_doc*, and can also be accessed from here: xref:attachment$examples/SIMA_5.2/Grid33ModelSummary.pdf[Grid33 shared mooring farm model summary]
+|`wind` `INO 12MW` `wind farm` `mooring`
+ 3+^|image::_attachments/examples/SIMA_5.2/images/static_grid3by3.png[]
+
+|===
+
